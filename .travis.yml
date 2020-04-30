@@ -1,0 +1,11 @@
+os: osx
+osx_image: xcode9.4
+language: swift
+xcode_project: ./SampleCI.xcodeproj
+xcode_scheme: SampleCI
+xcode_destination: platform=iphonesimulator,OS=11.4,name=iPhone 8
+sdk: iphonesimulator
+ONLY_ACTIVE_ARCH:NO
+CODE_SIGNING_REQUIRED=NO
+
+
